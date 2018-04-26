@@ -66,7 +66,7 @@ describe('Engine', () => {
 
           it('renders template', () => {
             const template = readFileSync(filename, 'utf-8');
-            const actual = Engine.render(template, locals, { filename });
+            const actual = Engine(template, {}, { filename, data: { title: 'Foo' } });
 
             assert.equal(actual, expected);
           });
