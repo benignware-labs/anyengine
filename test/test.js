@@ -34,13 +34,13 @@ describe('Engine', () => {
           let expected;
 
           beforeEach(() => {
-            Engine.runtime = require(engine);
+            Engine.runtime = engine;
             // Engine.configure({
             //   basedir: path.join(__dirname, 'fixtures')
             // });
 
             if (spec === 'middleware') {
-              Engine.use(frontmatter);
+              Engine.use('frontmatter');
             }
 
             locals = {
