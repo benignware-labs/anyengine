@@ -7,16 +7,20 @@ A meta-programming approach to universal templating
 
 #### compile(template, options)
 
-compiles template
+Compiles template string
 
 #### compileFile(filename, options, [callback])
 
-compiles template file
+Compiles template file
 
 #### render(template, locals, options)
 
-renders template
+Renders template string
 
 #### renderFile(filename, locals, options, [callback])
 
-renders template file
+Renders template file
+
+#### use(middleware)
+
+Applies middleware during compilation
