@@ -1,0 +1,27 @@
+{
+  "name": "anygine",
+  "version": "0.0.1",
+  "description": "A meta-programming approach to universal templating",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && mocha ."
+  },
+  "author": "Benignware",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs": "^2.5.9",
+    "frontmatter": "0.0.3",
+    "mocha": "^5.1.1",
+    "mustache": "^2.3.0",
+    "nunjucks": "3.1.0",
+    "pug": "^2.0.3"
+  },
+  "dependencies": {
+    "deepmerge": "^2.1.0",
+    "ext-name": "^5.0.0",
+    "handlebars": "^4.0.11",
+    "isbinaryfile": "^3.0.2",
+    "parse-function": "^5.2.9",
+    "pretty": "^2.0.0"
+  }
+}
