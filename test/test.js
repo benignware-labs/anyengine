@@ -35,9 +35,15 @@ describe('Engine', () => {
 
           beforeEach(() => {
             Engine.runtime = engine;
-            // Engine.configure({
-            //   basedir: path.join(__dirname, 'fixtures')
-            // });
+            Engine.configure({
+              // basedir: path.join(__dirname, 'fixtures'),
+              // data: {
+              //   site: {
+              //     title: 'Site'
+              //   }
+              // }
+              data: 'data'
+            });
 
             if (spec === 'middleware') {
               Engine.use('frontmatter');
@@ -66,7 +72,7 @@ describe('Engine', () => {
 
           it('renders template', () => {
             const template = readFileSync(filename, 'utf-8');
-            const actual = Engine(template, {}, { filename, data: { title: 'Foo' } });
+            const actual = Engine(template, { title: 'Foo' }, { filename } );
 
             assert.equal(actual, expected);
           });
