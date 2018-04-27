@@ -23,7 +23,7 @@ describe('Engine', () => {
   specs.forEach(spec => {
     describe(`with ${spec} specs`, () => {
       engines.forEach(({ engine, ext }) => {
-        const filename = `fixtures/${spec}.${ext}`;
+        const filename = `fixtures/engines/${engine}/${spec}.${ext}`;
 
         if (!existsSync(filename)) {
           return;
@@ -42,7 +42,7 @@ describe('Engine', () => {
               //     title: 'Site'
               //   }
               // }
-              data: 'data'
+              data: path.join(__dirname, 'fixtures', 'data')
             });
 
             if (spec === 'middleware') {
