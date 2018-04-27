@@ -10,7 +10,8 @@ const engines = [
   { engine: 'ejs', ext: 'ejs' },
   { engine: 'pug', ext: 'pug' },
   { engine: 'mustache', ext: 'mustache' }, // mst?
-  { engine: 'nunjucks', ext: 'njk' }
+  { engine: 'nunjucks', ext: 'njk' },
+  { engine: 'hogan.js', ext: 'hogan' }
 ];
 
 const specs = [

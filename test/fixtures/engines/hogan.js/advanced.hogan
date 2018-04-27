@@ -1,0 +1,6 @@
+<html>
+  {{>partials/head.hogan}}
+  <body>
+    <h1>{{ title }}</h1>
+  </body>
+</html>

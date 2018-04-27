@@ -11,6 +11,7 @@
   "devDependencies": {
     "ejs": "^2.5.9",
     "frontmatter": "0.0.3",
+    "hogan.js": "^3.0.2",
     "mocha": "^5.1.1",
     "mustache": "^2.3.0",
     "nunjucks": "3.1.0",
