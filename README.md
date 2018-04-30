@@ -32,5 +32,5 @@ Renders template file
 | basedir         | `string`          | Specify basedir. Used to resolve partials and data. Defaults to current working dir.
 | data            | `string`          | Specify directory where to resolve json data.
 | filename        | `string`          | Specify filename when rendering strings. Used to resolve partials and data.
-| runtime         | <code>string&#124;function&#124;object </code>         | Specify engine runtime. If not specified, it is resolved by filename.
-| use             | `array`           | Specify middleware
+| runtime         | <code>string&#124;function&#124;object </code>         | Specify engine runtime, i.e. `handlebars`. If not specified, it is resolved by filename.
+| use             | `array`           | Specify middleware, i.e. `frontmatter`.
