@@ -21,9 +21,13 @@
   "dependencies": {
     "deepmerge": "^2.1.0",
     "ext-name": "^5.0.0",
+    "fast-levenshtein": "^2.0.6",
     "handlebars": "^4.0.11",
     "isbinaryfile": "^3.0.2",
+    "parent-package": "^0.1.1",
+    "parent-package-json": "^2.0.1",
     "parse-function": "^5.2.9",
-    "pretty": "^2.0.0"
+    "pretty": "^2.0.0",
+    "string-similarity": "^1.2.0"
   }
 }
