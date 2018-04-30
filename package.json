@@ -1,5 +1,5 @@
 {
-  "name": "anygine",
+  "name": "anyengine",
   "version": "0.0.1",
   "description": "A meta-programming approach to universal templating",
   "main": "index.js",
