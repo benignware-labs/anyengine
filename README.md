@@ -25,7 +25,7 @@ Renders template string
 
 Renders template file
 
-## Options
+### Options
 
 | Name            | Type            | Description
 |-----------------|-----------------|------------------------------------------------|
