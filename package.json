@@ -4,12 +4,14 @@
   "description": "A meta-programming approach to universal templating",
   "main": "index.js",
   "scripts": {
-    "test": "cd test && mocha ."
+    "test": "cd test && mocha .",
+    "lint": "./node_modules/.bin/eslint ./lib"
   },
   "author": "Benignware",
   "license": "ISC",
   "devDependencies": {
     "ejs": "^2.5.9",
+    "eslint": "^4.19.1",
     "frontmatter": "0.0.3",
     "hogan.js": "^3.0.2",
     "mocha": "^5.1.1",
