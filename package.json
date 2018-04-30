@@ -4,7 +4,7 @@
   "description": "A meta-programming approach to universal templating",
   "main": "index.js",
   "scripts": {
-    "test": "cd test && mocha .",
+    "test": "cd test && mocha . --timeout 10000",
     "lint": "./node_modules/.bin/eslint ./lib"
   },
   "author": "Benignware",
