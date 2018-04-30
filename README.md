@@ -5,25 +5,23 @@ A meta-programming approach to universal templating
 
 ## API
 
-### Methods
-
-##### `configure([options])`
+##### `Engine.configure([options])`
 
 Specify default options
 
-##### `compile(template, [options])`
+##### `Engine.compile(template, [options])`
 
 Compiles template string
 
-##### `compileFile(filename, [options], [callback])`
+##### `Engine.compileFile(filename, [options], [callback])`
 
 Compiles template file
 
-##### `render(template, [locals], [options])`
+##### `Engine.render(template, [locals], [options])`
 
 Renders template string
 
-##### `renderFile(filename, [locals], [options], [callback])`
+##### `Engine.renderFile(filename, [locals], [options], [callback])`
 
 Renders template file
 
