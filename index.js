@@ -1,3 +1,3 @@
-const Engine = require('./lib/Engine');
+const Engine = require('./lib/xEngine');
 
 module.exports = Engine;
