@@ -30,6 +30,7 @@ Renders template file
 | Name            | Type            | Description
 |-----------------|-----------------|------------------------------------------------|
 | basedir         | `string`          | Specify basedir. Used to resolve partials and data
+| data            | `string`          | Specify directory where to resolve json data
 | filename        | `string`          | Specify filename when rendering strings. Used to resolve partials and data
 | runtime         | <code>string&#124;function&#124;object </code>         | Specify engine runtime. If not specified, it is resolved by file extension
 | use             | `array`           | Specify middleware
